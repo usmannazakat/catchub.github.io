@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 245, 245) !important;
+}
+
+.sec1 .left1 .logo img{
+    margin: auto;
+    width: 50%;
+}
+.sec1 .left1 .store{
+    width: 50%;
+    margin-left:15%;
+}
+.sec1 .left1 .store img{
+    width: 70%;
+    margin: 0 2%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold !important; 
+    font-size: 2rem !important;
+    margin-bottom: 20px !important;
+}
+.sec1 h1{
+    font-size: 1.6rem !important;
+}
+p{
+    color: rgb(123, 117, 117);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sec2 .right2{
+    margin-top: -180px !important;
+}
+
+.sec4 .right4{
+    margin-top: -100px;
+}
+.sec4 .right4 img{
+    margin-top: -200px;
+    margin-left: -450px;
+}
+
+.sec5{
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+.sec5 .botom-imj{
+    justify-content: center;
+    column-gap: 2%;
+    margin: 30px 0 !important;
+}
+.sec5 .botom-imj img{
+    width: 25%;
+}
+.sec5 .p1{
+    font-size: 2.3rem !important;
+    color: black;
+    margin: 20px 0 !important;
+}
+
+span{
+    color: blue;
+}
+
+
+@media (max-width: 1024px){
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 990px){
+    .sec2 .right2{
+        margin-top: 0px !important;
+    }
+    
+    .sec4 .right4{
+        margin-top: 0px;
+    }
+    .sec4 .right4 img{
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .righ1, .right2, .right3, .right4{
+        margin: 60px 0;
+    }
+    .sec5 .p1{
+        font-size: 1.7rem !important;
+        font-weight: bold;
+    }
+    .sec1{
+        margin: 30px 0 !important;
+    }
+}
+
+@media (max-width: 730px){
+    .sec5 .botom-imj img{
+        width: 35%;
+    }
+}
+
+@media (max-width: 450px){
+    p{
+        font-size: 1.25rem !important;
+        padding: 5px;
+    }
+    .sec1 h1{
+        font-size: 1.32rem !important;
+    }
+    .sec5 .botom-imj img{
+        width: 50%;
+    }
+}
+
+@media (max-width: 380px){
+    p{
+        padding: 5px;
+        font-size: 1.1rem !important;
+    }
+    .sec1 h1{
+        font-size: 1.12rem !important;
+    }
+}
